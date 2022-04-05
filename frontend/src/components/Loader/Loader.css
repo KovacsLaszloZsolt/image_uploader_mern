@@ -1,0 +1,30 @@
+.loaderCtn {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 2.25rem 2rem;
+    width: 25rem;
+}
+
+.loaderText {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: var(--gray);
+}
+
+.loaderLine {
+    height: .375rem;
+    background-color: var(--backGroundLoader);
+    background: linear-gradient(to right, var(--colorLoader), var(--colorLoader));
+    background-size: 30%;
+    background-repeat: repeat-y;
+    background-position: -50% 0;
+    animation: scroll 1s linear infinite;
+    border-radius: 8px;
+    margin-top: 2rem;
+    outline-style: round
+}
+
+@keyframes scroll{
+    100%{background-position: 150% 0;}
+}
