@@ -1,1 +1,2 @@
-# image_uploader_mern
+# Image uploader
+  with Express and React
